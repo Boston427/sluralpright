@@ -5,8 +5,7 @@
   "main": "index.js",
   "homepage": "https://boston427.github.io/sluralpright",
   "scripts": {
-    "deploy": "gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/Boston427/sluralpright/issues"
   },
-  "homepage": "https://github.com/Boston427/sluralpright#readme",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
