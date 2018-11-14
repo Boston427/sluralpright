@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "clone of plural sight",
   "main": "index.js",
+  "homepage": "https://boston427.github.io/sluralpright",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Boston427/sluralpright/issues"
   },
-  "homepage": "https://github.com/Boston427/sluralpright#readme"
+  "homepage": "https://github.com/Boston427/sluralpright#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
